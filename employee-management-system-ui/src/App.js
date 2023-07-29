@@ -1,12 +1,14 @@
-import './App.css';
+// import './App.css';
 import React from 'react';
+import Navbar from './components/Navbar';
+import AddEmployee from './components/AddEmployee';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <div>
+      <Navbar/>
+      <AddEmployee/>
     </div>
   );
 }
